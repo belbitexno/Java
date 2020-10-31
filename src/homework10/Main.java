@@ -15,6 +15,7 @@ public class Main {
         Cat cat = new Cat("green",7,6,"Petrovich","Secret cat");
         serialiseExternalize(cat);
         deSerialiseExternalize(cat);
+        System.out.println("Name");
     }
 
     public static void copy(Dog dog) throws CloneNotSupportedException { //Task 2
